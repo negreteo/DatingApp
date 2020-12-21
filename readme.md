@@ -5,3 +5,5 @@ A practical example of how to build an application with ASP.NET Core API (.Net 5
 Neil Cummings
 
 https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/
+
+https://github.com/TryCatchLearn/DatingApp
