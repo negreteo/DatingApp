@@ -16,7 +16,7 @@ export class AccountService {
   constructor(private http: HttpClient) {}
 
   login(model: any) {
-    // Uses pipe to enable RxJs functions, such as map
+    // Uses pipe to enable RxJs functions, such as map to transform data from an Observable.
     return this.http.post(this.baseUrl + 'account/login', model).pipe(
       map((response: User) => {
         const user = response;
